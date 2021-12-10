@@ -123,6 +123,15 @@ async def main():
     ) as ws:
 
         cp = ChargePoint('CP_3', ws)
+        
+                '''
+        1) Logging, BootNotification, Heartbeat, Initial StatusNotification
+        2) Authorize
+        3) StartTransaction
+        4) Asyncio.sleep -> Charging
+        5) Authorize
+        6) StopTransaction
+        '''
 
         await asyncio.gather(cp.start(), cp.send_heartbeat())
 
