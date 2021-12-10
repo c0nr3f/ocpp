@@ -118,7 +118,6 @@ class ChargePoint(cp):
 
 async def main():
     async with websockets.connect(
-        # 'ws://172.18.43.49:8080/steve/websocket/CentralSystemService/CP_3',
         'ws://localhost:9000/CP_3',
         subprotocols=['ocpp1.6']
     ) as ws:
