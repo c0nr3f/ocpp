@@ -1,6 +1,27 @@
 # Change log
 
-## Unreleased
+## 0.11.0 (2021-11-26)
+
+* [#250](https://github.com/mobilityhouse/ocpp/issues/250) Add v1.6 data types
+* [#268](https://github.com/mobilityhouse/ocpp/issues/268) Move from CircleCI to Github Actions.
+* [#270](https://github.com/mobilityhouse/ocpp/issues/270) Changes badges to reflect move to Github Action
+
+## 0.10.1 (2021-11-18)
+
+* [#252](https://github.com/mobilityhouse/ocpp/issues/252) Fix CI build.
+* [#259](https://github.com/mobilityhouse/ocpp/issues/259) Fix typo on `Action.SetMonitoringBase`. Thanks [@shaikhasif15752](https://github.com/shaikhasif15752)
+
+## 0.10.0 (2021-09-16)
+
+* [#240](https://github.com/mobilityhouse/ocpp/issues/240) Remove depreciated function `get_schema_code()`. Thanks [@proelke](https://github.com/proelke)
+* [#249](https://github.com/mobilityhouse/ocpp/issues/249) Add OCPP v2.0.1 data types. Thanks [@proelke](https://github.com/proelke)
+
+## 0.9.0 (2021-09-02)
+
+* Fix limit array in meterValue and sampledValue. Thanks [@laysauchoa](https://github.com/laysauchoa)
+* [#141](https://github.com/mobilityhouse/ocpp/issues/141) Add security enhancement for OCPP 1.6. Thanks [@villekr](https://github.com/villekr)
+* [#217](https://github.com/mobilityhouse/ocpp/issues/217) Fix parsing of floats in GetCompositeSchedule response. Thanks [@laysauchoa](https://github.com/laysauchoa)
+* [#223](https://github.com/mobilityhouse/ocpp/issues/223) Fix type DataTransferPayload.status. Thanks [@laysauchoa](https://github.com/laysauchoa)
 
 ## 0.8.3 (2021-04-21)
 
